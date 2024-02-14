@@ -1,0 +1,30 @@
+.babyPandora {
+  font-size: 24px;
+  font-weight: bold; 
+  margin-top: 5% !important;
+}
+
+.forkingOf {
+  font-size:90px;
+  font-weight: bold; 
+  color: rgb(157,159,158);
+  font-stretch: extra-expanded;
+}
+
+.pandoraLogo{
+    width: 100px;
+}
+.pandora {
+  font-size: 36px;
+  font-weight: bold;
+  margin-right: 5%;
+}
+
+.erc {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.ethLogo{
+    width: 20px; 
+}

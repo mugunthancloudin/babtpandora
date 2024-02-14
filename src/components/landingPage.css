@@ -1,0 +1,73 @@
+/* .mainpic{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:26%;
+    left: 35%;
+    
+} */
+
+.mainContainer {
+  background-color: black;
+  /* width: 100%;
+    height: 100vh; */
+}
+
+.mainLogo{
+  border-radius: 50px;
+  height: 500px;
+  width: 500px;
+}
+@media (min-width: 786px) {
+  /* Adjust the pixel value based on Bootstrap's 'lg' breakpoint */
+  .img-fluid {
+    width: 25% !important;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 35%;
+    left: 38%;
+  }
+}
+
+.logo{
+    width: 15%;
+}
+
+.logo1{
+    width: 7%;
+}
+
+@media screen and (max-width: 1400px) and (min-width: 900px) {
+  .logo{
+    width: 15%;
+}
+
+.logo1{
+    width: 4%;
+    margin-top: 1%;
+}
+
+}
+
+@media screen and (max-width: 900px) and (min-width: 500px) {
+  .logo{
+    width: 10%;
+}
+
+.logo1{
+    width: 4%;
+    margin-top: 0%;
+}
+
+} 
+
+@media (max-width: 576px) {
+  /* Adjust the breakpoint as needed */
+  .mainContainer p {
+    font-size: 0.75rem; /* Decrease the font size on small screens */
+    word-break: break-all; /* Ensure that the words can be broken at any character to prevent overflow */
+  }
+}
